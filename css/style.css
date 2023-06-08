@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* CSS Resrt */
+/* 基本樣式設定 */
+.nav {
+  background-color: #f6f6f6;
+}
+.nav ul {
+  padding: 6px 13px;
+  display: flex;
+  height: 28px;
+  justify-content: end;
+}
+.nav a {
+  padding: 6px 0 6px 19px;
+  text-decoration: none;
+  position: relative;
+  font-size: 13px;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+.nav img {
+  left: 0;
+  top: 5px;
+  position: absolute;
+}
+.nav__line {
+  background-color: #cccccc;
+  width: 1px;
+  height: 12px;
+  margin: 3px 6px 0 6px;
+}
+
+.text__color--fb {
+  color: #4460a0;
+}
+
+.text__color--twitter {
+  color: #00aaec;
+}
+
+/* menu start */
+.menu {
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+.menu__main a {
+  padding: 17px 25px;
+  display: block;
+  text-decoration: none;
+  color: #00cc99;
+  border-bottom: 5px solid #00cc9900;
+}
+
+.menu__main a:hover {
+  border-bottom: 5px solid #00cc99;
+}
+h1 {
+  display: flex;
+}
+
+.menu__logo {
+  display: block;
+  margin: auto 20px;
+  background-position: center;
+  background-image: url(/images/Logo.png);
+  background-repeat: no-repeat;
+  height: 36px;
+  width: 170px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
